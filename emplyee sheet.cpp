@@ -23,12 +23,9 @@ int main(){
 	float absdeduction;
 	float totaldeduction;
 	float netsalary;
-//-----------------------------------
-//            Printing
-//-----------------------------------
-cout<<"----------------------------------------------------------------"<<endl;
-cout<<"                      Employee Pay Sheet                        "<<endl;
-cout<<"----------------------------------------------------------------"<<endl;
+cout<<"-------------------------------------------------"<<endl;
+cout<<"                Enter Your Data                  "<<endl;
+cout<<"-------------------------------------------------"<<endl;
 	cout<<"Enter your ID no :";
 	cin>>ID;
 	cout<<"Enter your name :";
@@ -54,7 +51,12 @@ cout<<"----------------------------------------------------------------"<<endl;
 	absdeduction=(basicsalary/30)*(30-days);
 	totaldeduction=tax+fund+absdeduction;
 	netsalary=grosssalary-totaldeduction;
- 
+//-----------------------------------
+//            Printing
+//-----------------------------------
+cout<<"----------------------------------------------------------------"<<endl;
+cout<<"                      Employee Pay Sheet                        "<<endl;
+cout<<"----------------------------------------------------------------"<<endl; 
 cout<<"-------------------------------------------------"<<endl;
 cout<<"                Your Basic Info                  "<<endl;
 cout<<"-------------------------------------------------"<<endl;
